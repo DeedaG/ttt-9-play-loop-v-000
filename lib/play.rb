@@ -39,6 +39,5 @@ end
 def play(board)
   until input == (1)
     turn(board)
-  else input == (2)
   end
 end
