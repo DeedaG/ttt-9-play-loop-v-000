@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  until board = [0,1,2,3,4,5,6,7,8]
+  until board = [X,X,X,X,X,X,X,X,X]
     turn(board)
   end
 end
