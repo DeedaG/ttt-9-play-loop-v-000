@@ -37,8 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  until input == (1,2,3,4,5,6,7,8,9)
+  until input == (1)
     turn(board)
+  else input == (2)   
   end
 end
  
