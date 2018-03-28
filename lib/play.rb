@@ -37,7 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  until board == ["X","X","X","X","X",'X","X","X","X']
-    turn(board)
+  until index == ('1','2','3','4','5','6',
+'7', '8', '9')  
+turn(board)
   end
 end
